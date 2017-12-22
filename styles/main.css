@@ -303,9 +303,7 @@
    
     color:#fff;
     font-size:0.2666rem;
-    padding-left:0.53333rem;
-    padding-right:0.53333rem;
-    margin:0.4rem 0;
+    padding:0.4rem 0.53333rem 0.4rem 0.53333rem;
 }
 .info-title{
     position: relative;    
@@ -332,13 +330,11 @@
     margin-top:-0.2665rem; 
 }
 .info-title .line-through-left{
-    /* left:0; */
     float: left;
     background-color: #62adff;
     
 }
 .info-title .line-through-right{
-    /* right:0; */
     float: right;
     background-color: #3a39ee;
     
