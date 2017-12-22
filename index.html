@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>威海市商业银行活动页</title>
+    <!--动态设置文字大小-->
+    <script>
+        //动态设置根字体
+        var scale = 1 / window.devicePixelRatio;
+        document.querySelector('meta[name="viewport"]').setAttribute('content','width=device-width,initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 10 + 'px';
+    </script>
+</head>
+<body>
+    <div class="mask"></div>
+    <!-- 导航栏 -->
+    <div class="nav">
+    </div>
+    <!-- 中间主体内容 -->
+    <div class="wraper">
+        <!-- 活动部分 -->
+        <div class="wraper-product">
+            <!-- 分享按钮 -->
+            <!-- <div class="share">
+                分享
+            </div> -->
+            <a class="share" href="#">
+                <img src="images/btn-share.png" alt="分享按钮"/>
+            </a>
+            <!-- 立即抢购部分 -->
+            <div class="product">
+                <div class="product-title">
+                    <img src="images/" alt="">
+                </div>
+                <div class="product-num clearfix">
+                    <div class="product-num-left">
+                        <div class="product-num-left-top">
+                            <span class="ft60">5.13</span>
+                            <span class="ft38">%</span>
+                        </div>
+                        <span class="profit">近七日年化收益</span> 
+                    </div>
+                    <div class="product-num-right">
+                        <div class="product-num-right-top">
+                            <span class="ft60 add">+</span>
+                            <span class="ft60">1</span>
+                            <span class="ft38">%</span>
+                        </div>                        
+                        <span class="subsidy">平台额外补贴</span>
+                    </div>                    
+                </div>                
+                <div class="product-btn">
+                    <button type="button" class="btn-buy"></button>
+                </div>
+            </div>
+            <!-- 购买成功 -->
+            <div class="pop-box success-buy">
+                <div class="pop-wraper success-buy-box">
+                    <span class="submit-icon"></span>
+                    <p>购买成功</p>
+                </div>  
+                <span class="btn-close"></span>             
+            </div>
+            <!-- 中奖提示 -->
+            <div class="pop-box winning-tip">
+                    <div class="pop-wraper winning-tip-box">
+                        <img src="images/winning-icon.png" alt="中奖提示">
+                        <div class="ellipse">前往填写地址</div>
+                    </div>  
+                    <span class="btn-close"></span>             
+                </div>
+            <!-- 未中奖提示 -->
+            <div class="pop-box no-winning">
+                    <div class="pop-wraper no-winning-box">
+                        <img src="images/nowinning-icon.png" alt="未中奖提示">
+                    </div>  
+                    <span class="btn-close"></span>             
+                </div>
+            <!-- 已提交部分 -->
+            <div class="pop-box submited">
+                <div class="pop-wraper submited-box">
+                    <div class="submited-box-text">
+                        <span class="submit-icon"></span>
+                        <p class="mb50">已提交</p>
+                        <p>XXXXXX</p>
+                        <p>会在十五个工作日内发货</p>
+                    </div>
+                    <div class="konw ellipse">我知道了</div>
+                </div>
+                <span class="btn-close"></span>
+            </div>
+            <!-- 活动文字描述部分 -->
+            <div class="info">
+                <h1 class="info-title">
+                    <span class="rule">活动规则</span>
+                    <span class="line-through line-through-left"></span>
+                    <span class="line-through line-through-right"></span>
+                </h1>
+                <p>1. 活动时间：2017年7月18日-2017年7月31日;</p>
+                <p> 2. 活动期间，鹏华货币基金年化收益率加贴1％，产品总申购上限为2亿，售 
+                完即止；</p>
+                <p>3. 累计购买鹏华货币基金满10万且活动期间无任意赎回送价值800元体检卡
+                    一张，每客户最多获取1张，限量200张。如活动期间发生赎回，则取消获
+                     得的体检卡。活动结束后将有客服人员与您沟通配送信息，活动结束后的
+                    20个工作日内开始配送；
+                <p>4.  累计补贴金额需大于1元，小于1元的不予赠送。补贴将在活动结束后的20
+                个工作日内支付到您开立的账户中；</p>
+                <p> 5. 如发现恶意刷单的行为，该用户获得的奖励将被取消；</p>
+                <p>6. 本活动最终解释权归威海市商业银行直销银行所有，威海市商业银行直销
+                银行有权变更活动规则并在app内进行公示。</p>
+                   
+            </div>
+        </div>
+    </div>
+</body>
+</html>
