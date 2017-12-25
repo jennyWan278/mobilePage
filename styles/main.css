@@ -217,7 +217,7 @@
 }
 /* 购买成功 */
 .success-buy{
-    display: block;
+    display: none;
     top:4.5733rem;
 }
 /* 中奖提示 */
@@ -297,6 +297,48 @@
     background-size:100% 100%;
     margin: 0 auto;
     margin-top:0.56rem; 
+}
+/* 填写地址 */
+.address{
+    top:4.16rem;
+    display: block;
+}
+.address-box{  
+    padding:0 0.6666rem;
+    font-size:0.3733rem;
+    color:#e8bff1;
+}
+
+.address-box form{
+    padding-top:0.2933rem;
+    text-align: center;
+}
+.address-box form label{
+    margin-top:0.5066rem;
+}
+.address-box input[type="text"]{
+    width: 4.0266rem;
+    height:0.8rem;
+    margin-left:0.32rem;
+     margin-top:0.5066rem;
+    border:1px solid #e8bff1;
+    border-radius:0.1333rem;
+    -webkit-border-radius:0.1333rem;
+    -moz-border-radius:0.1333rem;
+}
+.address-box input[type="text"]#address{
+    height:1.9733rem;
+}
+.address-box .store{
+    margin-top: 0;
+    margin-bottom:0.56rem;
+    background-color: transparent;
+}
+.address-box p{
+    height:0.573rem;
+    line-height: 0.64rem;
+    color: #ff6057;
+    font-size: 0.24rem;
 }
 /* 活动文字描述部分 */
 .info{
